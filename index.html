@@ -21,7 +21,7 @@
     window.addEventListener('resize',function(){
       renderer.setSize(window.innerWidth,window.innerHeight);
       camera.aspect=window.innerWidth/window.innerHeight;
-      canera.updateProjectionMatrix();
+      camera.updateProjectionMatrix();
     },false);
     
     var geometry=new THREE.BoxGeometry(1,1,1);
