@@ -18,7 +18,7 @@
     renderer.setSize(window.innerWidth,window.innerHeight);
     document.body.appendChild(renderer.domElement);
     
-    window.addEventListemer('resize',function(){
+    window.addEventListener('resize',function(){
       renderer.setSize(window.innerWidth,window.innerHeight);
       camera.aspect=window.innerWidth/window.innerHeight;
       canera.updateProjectionMatrix();
